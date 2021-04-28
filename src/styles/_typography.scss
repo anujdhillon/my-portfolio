@@ -1,0 +1,64 @@
+.HomePage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+}
+
+.hero-text{
+    color: white;
+    text-align: center;
+    font-size: 3.6rem;
+    span{
+        color: #037fff;
+    }
+}
+.direction-text{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    span{
+        color: #037fff;
+    }
+}
+
+.h-sub-text{
+    text-align: center;
+}
+
+.hero{
+    text-align: center;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+    .icon-holder{
+        margin-right: 1rem;
+        .icon{
+            font-size: 5rem;
+            color: #a4acc4;
+            padding: 1rem;
+            transition: all .4s ease-in-out;
+        }
+        .ig:hover{
+            color: magenta;
+        }
+        .gh:hover{
+            color: purple;
+        }
+        .li:hover{
+            color: lightblue;
+        }
+        .fb:hover{
+            color: blue;
+        }
+    }
+}
